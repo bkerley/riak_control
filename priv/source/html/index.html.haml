@@ -5,3 +5,6 @@
     %link{rel: 'stylesheet', href: 'css/riak_control.css', media: 'screen', type: 'text/css'}
   %body
     %h1 fartzzzzz
+    %p toot
+    - %w{json2.js zepto.min.js backbone-min.js underscore-min.js application.js}.each do |js|
+      %script{type: 'text/javascript', src: "js/#{js}"}
