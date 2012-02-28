@@ -1,1 +1,2 @@
-butt = 5
+$(document).ready ->
+  alert 'fart'
