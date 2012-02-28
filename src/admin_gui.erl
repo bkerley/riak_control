@@ -37,7 +37,8 @@
 %% mappings to the various content types supported for this resource
 -define(CONTENT_TYPES,[{"text/html",to_resource},
                        {"text/plain",to_resource},
-                       {"text/javascript",to_resource}
+                       {"text/javascript",to_resource},
+                       {"text/css",to_resource}
                       ]).
 
 %% defines the webmachine routes this module handles
