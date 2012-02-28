@@ -1,3 +1,6 @@
 body {
-  background-color: fuchsia;
+  background-color: #ddccbb;
   color: black; }
+
+.hide {
+  display: none; }
