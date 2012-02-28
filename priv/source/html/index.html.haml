@@ -4,8 +4,8 @@
     %title Riak Control
     %link{rel: 'stylesheet', href: 'css/riak_control.css', media: 'screen', type: 'text/css'}
   %body
-    %h1 fartzzzzz
-    %p toot
-    %ul#toots
-    - %w{json2.js zepto.min.js underscore-min.js backbone-min.js raphael-min.js g.raphael-min.js application.js}.each do |js|
+    .canvases
+      #canvas-1
+      #canvas-2.hide
+    - %w{json2.js zepto.min.js underscore-min.js backbone-min.js raphael-min.js g.raphael-min.js g.line-min.js application.js}.each do |js|
       %script{type: 'text/javascript', src: "js/#{js}"}
