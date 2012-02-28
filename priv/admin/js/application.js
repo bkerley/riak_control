@@ -1,6 +1,7 @@
 (function() {
-  var butt;
 
-  butt = 5;
+  $(document).ready(function() {
+    return alert('fart');
+  });
 
 }).call(this);
